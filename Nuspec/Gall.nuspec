@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Gall</id>
+    <version>0.0.0-alpha1</version>
+    <title>Gall: </title>
+    <authors>Akira Sugiura</authors>
+    <owners>Akira Sugiura</owners>
+    <licenseUrl>https://github.com/urasandesu/Gall/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/urasandesu/Gall</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      The commands that manage VSIX on the NuGet Package Manager Console.
+    </summary>
+    <description>
+      xxx
+    </description>
+    <copyright>(c) 2015 Akira Sugiura. All rights reserved.</copyright>
+    <tags>vsix</tags>
+    <releaseNotes>Version 0.0.0-alpha1
+* Pre-release 1.
+* 
+
+
+    </releaseNotes>
+  </metadata>
+  <files>
+    <!--<file src="..\Release\Urasandesu.Gall.dll" target="tools\Urasandesu.Gall\" />-->
+    <file src="..\Debug\Urasandesu.Gall.dll" target="tools\Urasandesu.Gall\" />
+    <file src="..\Debug\Urasandesu.Gall.pdb" target="tools\Urasandesu.Gall\" />
+    <file src="tools\**\*.*" target="tools" />
+  </files>
+</package>
